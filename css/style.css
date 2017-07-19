@@ -1,0 +1,147 @@
+body, {
+  height: 100%;
+  width: 100%;
+}
+h2 {
+  font-weight:  bold;
+}
+.skill{
+  text-align: center;
+  padding-left: 2%;
+ font-family: 'Cinzel', serif;
+ font-weight: 400;
+ line-height: 25px;
+}
+.education{
+  text-align: center;
+  padding-right: 1%;
+ font-family: 'Cinzel', serif;
+ line-height: 20px;
+}
+.bio{
+  width: 85%;
+  text-align: center;
+  padding-left: 10%;
+ font-family: 'Cinzel', serif;
+ line-height: 25px;
+}
+.header{
+  text-align: center;
+  padding-right: 10%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 900px;
+}
+.one{
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  font-weight: 700;
+}
+.two{
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  padding-left: 5%;
+}
+.pac{
+  border-radius: 50%;
+}
+
+@media only screen and (min-width : 375px) {
+  .skill{
+    text-align: center;
+    padding-left: 6%;
+  }
+  .education{
+    text-align: center;
+    padding-right: 6%;
+  }
+  .bio{
+    width: 85%;
+    text-align: center;
+    padding-left: 10%;
+  }
+  .header{
+    text-align: center;
+    padding-right: 10%;
+  }
+  .pac{
+    border-radius: 50%;
+  }
+  .uk-border-circle{
+    height: 300px;
+    width: 300px;
+    margin-left: 9%;
+
+  }
+}
+
+
+@media only screen and (min-width : 768px) {
+  /* CSS for the IPad*/
+  .skill{
+    text-align: center;
+    padding-right: 6%;
+  }
+  .education{
+    text-align: center;
+    padding-right: 6%;
+  }
+  .bio{
+    width: 85%;
+    text-align: center;
+    padding-left: 10%;
+  }
+  .header{
+    text-align: center;
+    padding-right: 10%;
+  }
+  .pac{
+    border-radius: 50%;
+  }
+  .uk-border-circle{
+    height: 500px;
+    width: 500px;
+    margin-left: 16%;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  /* Hero image height and width - Extra large monitors */
+ .skill{
+   text-align: center;
+   padding-left: 16%;
+ }
+ .education{
+   text-align: center;
+   padding-right: 6%;
+ }
+ .bio{
+   width: 85%;
+   text-align: center;
+   padding-left: 10%;
+ }
+ .header{
+   text-align: center;
+   padding-right: 10%;
+ }
+ .pac{
+   border-radius: 50%;
+ }
+ .one{
+   font-family: 'Indie Flower', cursive;
+   font-size: 90px;
+   font-weight: 700;
+ }
+ .two{
+   font-family: 'Indie Flower', cursive;
+   font-size: 90px;
+   padding-left: 5%;
+ }
+ .uk-border-circle{
+   height: 500px;
+   width: 500px;
+   margin-left: 5%;
+   margin-top: 3%;
+
+ }
+
+}
